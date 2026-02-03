@@ -26,6 +26,7 @@ agsbx del
 ```
 建议配合SSH一键脚本命令生成器网页使用：
 https://yonggekkk.github.io/argosbx/
+
 realm转发面板
 ```
 curl -L https://host.wxgwxha.eu.org/https://github.com/wcwq98/realm/releases/download/v2.1/realm.sh -o realm.sh && chmod +x realm.sh &&  ./realm.sh
