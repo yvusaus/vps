@@ -40,3 +40,7 @@ rm -rf /home/mtproxy && mkdir /home/mtproxy && cd /home/mtproxy
 curl -fsSL -o mtproxy.sh https://github.com/ellermister/mtproxy/raw/master/mtproxy.sh
 bash mtproxy.sh
 ```
+一键更改roo密码
+```
+wget -N https://gitlab.com/rwkgyg/vpsroot/raw/main/root.sh && bash root.sh
+```
