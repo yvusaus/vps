@@ -2,15 +2,15 @@
 ```
 apt update && apt install -y curl wget
 ```
-一键启用BBR
-```
-echo "net.core.default_qdisc=fq_pie" > /etc/sysctl.d/99-bbr.conf && \
-echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.d/99-bbr.conf && \
-sysctl --system
-```
 安装AnyTLS
 ```
 anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+```
+BBR Plus一键安装
+```
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
+chmod +x tcp.sh
+./tcp.sh
 ```
 重启
 ```
@@ -23,6 +23,12 @@ agsbx list
 卸载
 ```
 agsbx del
+```
+一键启用BBR
+```
+echo "net.core.default_qdisc=fq_pie" > /etc/sysctl.d/99-bbr.conf && \
+echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.d/99-bbr.conf && \
+sysctl --system
 ```
 建议配合SSH一键脚本命令生成器网页使用：
 https://yonggekkk.github.io/argosbx/
