@@ -45,9 +45,3 @@ bash mtproxy.sh
 ```
 wget -N https://gitlab.com/rwkgyg/vpsroot/raw/main/root.sh && bash root.sh
 ```
-BBR Plus一键安装
-```
-wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh"
-chmod +x tcp.sh
-./tcp.sh
-```
