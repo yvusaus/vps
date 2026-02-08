@@ -35,12 +35,7 @@ curl -L https://host.wxgwxha.eu.org/https://github.com/wcwq98/realm/releases/dow
 ```
 nano /root/realm/web/config.toml
 ```
-安装 MTProxy
-```
-rm -rf /home/mtproxy && mkdir /home/mtproxy && cd /home/mtproxy
-curl -fsSL -o mtproxy.sh https://github.com/ellermister/mtproxy/raw/master/mtproxy.sh
-bash mtproxy.sh
-```
+
 一键更改roo密码
 ```
 wget -N https://gitlab.com/rwkgyg/vpsroot/raw/main/root.sh && bash root.sh
