@@ -4,7 +4,7 @@ apt update && apt install -y curl wget
 ```
 一键启用BBR
 ```
-echo "net.core.default_qdisc=fq_pie" > /etc/sysctl.d/99-bbr.conf && \
+echo "net.core.default_qdisc=fq" > /etc/sysctl.d/99-bbr.conf && \
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.d/99-bbr.conf && \
 sysctl --system
 ```
