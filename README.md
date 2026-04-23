@@ -8,9 +8,9 @@ echo "net.core.default_qdisc=fq" > /etc/sysctl.d/99-bbr.conf && \
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.d/99-bbr.conf && \
 sysctl --system
 ```
-安装AnyTLS
+安装Hysteria2
 ```
-anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+hypt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
 重启
 ```
