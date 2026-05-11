@@ -12,10 +12,7 @@ sysctl --system
 ```
 anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
-安装Hysteria2
-```
-hypt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
-```
+
 重启
 ```
 reboot
@@ -43,4 +40,8 @@ nano /root/realm/web/config.toml
 一键更改roo密码
 ```
 wget -N https://gitlab.com/rwkgyg/vpsroot/raw/main/root.sh && bash root.sh
+```
+安装Hysteria2
+```
+hypt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
