@@ -41,7 +41,3 @@ nano /root/realm/web/config.toml
 ```
 wget -N https://gitlab.com/rwkgyg/vpsroot/raw/main/root.sh && bash root.sh
 ```
-安装Hysteria2
-```
-hypt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
-```
