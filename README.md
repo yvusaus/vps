@@ -10,7 +10,7 @@ sysctl --system
 ```
 安装AnyTLS
 ```
-anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+anpt="" ippz="6" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
 
 重启
