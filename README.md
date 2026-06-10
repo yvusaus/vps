@@ -12,9 +12,6 @@ sysctl --system
 ```
 anpt="" ippz="6" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
-建议配合SSH一键脚本命令生成器网页使用：
-https://yonggekkk.github.io/argosbx/
-
 重启
 ```
 reboot
@@ -27,7 +24,7 @@ agsbx list
 ```
 agsbx del
 ```
-
+建议配合SSH一键脚本命令生成器网页使用：https://yonggekkk.github.io/argosbx/
 
 realm转发面板
 ```
