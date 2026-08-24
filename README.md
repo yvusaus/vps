@@ -8,14 +8,16 @@ echo "net.core.default_qdisc=fq" > /etc/sysctl.d/99-bbr.conf && \
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.d/99-bbr.conf && \
 sysctl --system
 ```
-安装anytls
-```
-anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
-```
 重启
 ```
 reboot
 ```
+安装anytls
+```
+anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+```
+SSH一键脚本命令生成器网页使用：https://yonggekkk.github.io/argosbx/
+
 显示
 ```
 agsbx list
@@ -24,7 +26,6 @@ agsbx list
 ```
 agsbx del
 ```
-建议配合SSH一键脚本命令生成器网页使用：https://yonggekkk.github.io/argosbx/
 
 realm转发面板
 ```
