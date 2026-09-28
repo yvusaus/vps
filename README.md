@@ -12,9 +12,9 @@ sysctl --system
 ```
 reboot
 ```
-安装Hysteria2
+安装AnyTLS
 ```
-hypt="" hyjpt="10000:20000" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
 SSH一键脚本命令生成器网页使用：https://yonggekkk.github.io/argosbx/
 
