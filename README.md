@@ -8,16 +8,16 @@ echo "net.core.default_qdisc=fq" > /etc/sysctl.d/99-bbr.conf && \
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.d/99-bbr.conf && \
 sysctl --system
 ```
-重启
-```
-reboot
-```
+
 安装AnyTLS
 ```
 anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
 SSH一键脚本命令生成器网页使用：https://yonggekkk.github.io/argosbx/
-
+重启
+```
+reboot
+```
 显示
 ```
 agsbx list
