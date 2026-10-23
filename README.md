@@ -14,6 +14,7 @@ sysctl --system
 anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
 ```
 SSH一键脚本命令生成器网页使用：https://yonggekkk.github.io/argosbx/
+
 重启
 ```
 reboot
