@@ -8,13 +8,10 @@ echo "net.core.default_qdisc=fq" > /etc/sysctl.d/99-bbr.conf && \
 echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.d/99-bbr.conf && \
 sysctl --system
 ```
-
-安装AnyTLS
+Sing-box精装桶五合一
 ```
-anpt="" bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/argosbx/main/argosbx.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/sing-box-yg/main/sb.sh)
 ```
-SSH一键脚本命令生成器网页使用：https://yonggekkk.github.io/argosbx/
-
 重启
 ```
 reboot
