@@ -12,18 +12,6 @@ Sing-box精装桶五合一
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/sing-box-yg/main/sb.sh)
 ```
-重启
-```
-reboot
-```
-显示
-```
-agsbx list
-```
-卸载
-```
-agsbx del
-```
 
 realm转发面板
 ```
